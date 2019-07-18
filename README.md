@@ -45,7 +45,7 @@ It's so easy to start up the MongoDB File Server with 2 steps.
 ### 1. Get source（获取源码）
 
 ```shell
-$ git clone https://github.com/waylau/mongodb-file-server.git
+$ git clone https://github.com/yongorg/mongodb-file-server.git
 ```
 
 ### 2. Run（运行）
