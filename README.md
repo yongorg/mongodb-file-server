@@ -98,7 +98,7 @@ dependencies {
 
 ## Host（托管）
 
-* GitHub：<https://github.com/yongz/mongodb-file-server>
+* GitHub：<https://github.com/yongorg/mongodb-file-server>
 
 
 ## Donate 捐赠
