@@ -23,12 +23,15 @@ buildscript { // buildscript 代码块中脚本优先执行
 
 // 使用插件
 apply plugin: 'java'
-apply plugin: 'eclipse'
+apply plugin: 'war'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
+apply plugin: 'application'
 
 // 指定了生成的编译文件的版本，默认是打成了 jar 包
-version = '1.0.0'
+version = '1.0'
+sourceCompatibility = 1.8
+mainClassName = 'com.waylau.spring.boot.fileserver.Application'
 
 // 指定编译 .java 文件的 JDK 版本
 sourceCompatibility = 1.8
